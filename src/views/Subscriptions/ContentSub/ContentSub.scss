@@ -1,0 +1,13 @@
+.contentSub-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+
+    .contentSub-content{
+        width: 1300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

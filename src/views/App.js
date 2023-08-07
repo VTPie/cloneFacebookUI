@@ -1,12 +1,10 @@
-import './App.css';
-import Navigation from './Navigation/Navigation'
-import Header from './Header/Header';
-import Content from './Content/Content';
+import './App.scss';
+import Home from './Home/Home';
+import Subscriptions from './Subscriptions/Subscriptions';
 import {
   BrowserRouter,
   Switch,
-  Route,
-  Routes,
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -14,9 +12,14 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <header className="App-header">
-          <Header />
-          <Navigation />
-          <Content />
+          <Switch>
+            <Route path="/" exact>
+              <Home />
+            </Route>
+            <Route path="/subscriptions">
+              <Subscriptions />
+            </Route>
+          </Switch>
         </header>
       </div>
     </BrowserRouter>
