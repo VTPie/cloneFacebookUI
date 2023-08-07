@@ -1,5 +1,6 @@
 import './App.css';
 import Navigation from './Navigation/Navigation'
+import Header from './Header/Header';
 import {
   BrowserRouter,
   Switch,
@@ -12,6 +13,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <header className="App-header">
+          <Header />
           <Navigation />
         </header>
       </div>
