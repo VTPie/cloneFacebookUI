@@ -6,7 +6,7 @@ class SearchBar extends React.Component {
     render() {
         return (
             <div className="searchbar-container">
-                <input className="searchbar-input"></input>
+                <input className="searchbar-input" placeholder="Tìm kiếm"></input>
                 <div className="searchbar-btnSearch">
                     <img src={search} className="searchbar-icon" alt="search icon" />
                 </div>
