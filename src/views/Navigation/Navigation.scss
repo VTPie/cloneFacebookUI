@@ -1,5 +1,5 @@
 .nav-container{
-    width: 220px;
+    width: 240px;
     color: black;
     display: flex;
     flex-direction: column;
@@ -31,8 +31,16 @@
     }
 
     .nav-title{
-        margin-left: 0;
-        margin-right: auto;
+        font-size: 18px;
+        margin: 5px auto 5px 0;
         padding-left: 10px;
+    }
+    .nav-icon{
+        width: 20px;
+        margin: auto 20px auto 0;
+    }
+    .nav-picture{
+        width: 25px;
+        margin: auto 20px auto 0;
     }
 }

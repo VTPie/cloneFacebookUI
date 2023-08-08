@@ -4,10 +4,16 @@
     flex-direction: row;
     width: 100%;
 
+    .content-nav{
+        left: 0;
+        position: fixed;
+    }
     .content-video{
+        margin-left: 340px;
         width: 1300px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        align-content: flex-start;  
     }
 }

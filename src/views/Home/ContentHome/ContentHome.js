@@ -2,61 +2,76 @@ import React from "react";
 import Navigation from '../../Navigation/Navigation'
 import './ContentHome.scss'
 import VideoCard from '../../VideoCard/VideoCard'
-import mv1 from '../../../assests/hardcode/mv1.jpg'
-import mv2 from '../../../assests/hardcode/mv2.jpg'
-import mv3 from '../../../assests/hardcode/mv3.jpg'
-import mv4 from '../../../assests/hardcode/mv4.jpg'
-import mv5 from '../../../assests/hardcode/mv5.jpg'
-import mv6 from '../../../assests/hardcode/mv6.png'
-import mv1a from '../../../assests/hardcode/mv1-1.jpg'
-import mv2a from '../../../assests/hardcode/mv2a.jpg'
-import mv3a from '../../../assests/hardcode/mv3a.jpg'
-import mv4a from '../../../assests/hardcode/mv4a.jpg'
-import mv5a from '../../../assests/hardcode/mv5a.jpg'
-import mv6a from '../../../assests/hardcode/mv6a.jpg'
+import images from '../../../assests/hardcode/images'
 
 class ContentHome extends React.Component {
     render() {
         return (
             <div className="content-container">
-                <Navigation />
+                <div className="content-nav">
+                    <Navigation />
+                </div>
                 <div className="content-video">
                     <VideoCard
-                        thumbnail={mv1}
-                        avtChanel={mv1a}
+                        thumbnail={images.mv1}
+                        avtChanel={images.mv1a}
                         nameVideo={'Yêu 3 Năm Dại 1 Giờ - Chu Thúy Quỳnh | Official Music Video'}
                         nameChanel={'Chu Thúy Quỳnh'}
                         views={'1.000.000 lượt xem'}
                     />
                     <VideoCard
-                        thumbnail={mv2}
-                        avtChanel={mv2a}
+                        thumbnail={images.mv2}
+                        avtChanel={images.mv2a}
                         nameVideo={'NHẬT PHONG | THẬT LÒNG YÊU | OFFICIAL MUSIC VIDEO'}
                         nameChanel={'Nhật Phong'}
                         views={'1.000.000 lượt xem'} />
                     <VideoCard
-                        thumbnail={mv3}
-                        avtChanel={mv3a}
+                        thumbnail={images.mv3}
+                        avtChanel={images.mv3a}
                         nameVideo={'ERIK - \'Em Không Sai, Chúng Ta Sai\' (Official MV)'}
                         nameChanel={'ERIK Offical'}
                         views={'1.000.000 lượt xem'} />
                     <VideoCard
-                        thumbnail={mv4}
-                        avtChanel={mv4a}
+                        thumbnail={images.mv4}
+                        avtChanel={images.mv4a}
                         nameVideo={'Thương Về Miền Trung - Phương Anh (Official MV)'}
                         nameChanel={'Phương Anh Bolero'}
                         views={'1.000.000 lượt xem'} />
                     <VideoCard
-                        thumbnail={mv5}
-                        avtChanel={mv5a}
+                        thumbnail={images.mv5}
+                        avtChanel={images.mv5a}
                         nameVideo={'HOÀI MỘT ĐỜI CHỜ ĐỢI - KHANG VIỆT | OFFICIAL MUSIC VIDEO'}
                         nameChanel={'Khang Việt'}
                         views={'1.000.000 lượt xem'} />
                     <VideoCard
-                        thumbnail={mv6}
-                        avtChanel={mv6a}
+                        thumbnail={images.mv6}
+                        avtChanel={images.mv6a}
                         nameVideo={'Sa Mạc Tình Yêu - Phương Ý (Quán Quân Thần Tượng Bolero 2019) | Official 4K MV'}
                         nameChanel={'Phương Ý Offical'}
+                        views={'1.000.000 lượt xem'} />
+                    <VideoCard
+                        thumbnail={images.mv7}
+                        avtChanel={images.mv7a}
+                        nameVideo={'HOÀ MINZY x BÙI CÔNG NAM | TẾT BÙNG NỘI LỰC | OFFICIAL MV'}
+                        nameChanel={'Hòa Minzy'}
+                        views={'1.000.000 lượt xem'} />
+                    <VideoCard
+                        thumbnail={images.mv8}
+                        avtChanel={images.mv7a}
+                        nameVideo={'TẾT XA HÓA GẦN – Hòa Minzy x Mew Amazing (Official MV)'}
+                        nameChanel={'Hòa Minzy'}
+                        views={'1.000.000 lượt xem'} />
+                    <VideoCard
+                        thumbnail={images.mv9}
+                        avtChanel={images.mv7a}
+                        nameVideo={'Tết Nhà Mình - Hòa Minzy & Lăng LD | Gala Nhạc Việt 15'}
+                        nameChanel={'Hòa Minzy'}
+                        views={'1.000.000 lượt xem'} />
+                    <VideoCard
+                        thumbnail={images.mv9}
+                        avtChanel={images.mv7a}
+                        nameVideo={'Tết Nhà Mình - Hòa Minzy & Lăng LD | Gala Nhạc Việt 15'}
+                        nameChanel={'Hòa Minzy'}
                         views={'1.000.000 lượt xem'} />
                 </div>
             </div>

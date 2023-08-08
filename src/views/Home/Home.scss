@@ -1,0 +1,11 @@
+.home-container{
+    overflow-y: hidden;
+    .home-header{
+        position: fixed;
+        right: 0;
+        width: 100%;
+    }
+    .home-content{
+        margin-top: 65px;
+    }
+}
