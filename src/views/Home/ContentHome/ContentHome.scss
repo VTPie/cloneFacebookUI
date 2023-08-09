@@ -3,7 +3,6 @@
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
-
     .content-nav{
         left: 0;
         position: fixed;
@@ -27,12 +26,10 @@
             .nav-responsive1-show{
                 display: flex;
                 flex-direction: column;
-                align-items: center;
-                
+                align-items: center;             
                 .nav-icon{
                     margin: 0;
                 }
-
                 .nav-child{
                     display: block;
                     font-size: 10px;
@@ -45,6 +42,14 @@
         .content-video{
             margin-left: 80px;
             width: calc(100% - 80px);
+        }
+    }
+}
+@media screen and (max-width: 1188px){
+    .content-container{
+        .content-video{
+            display: flex;
+            justify-content: space-around;
         }
     }
 }

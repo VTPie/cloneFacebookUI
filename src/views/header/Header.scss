@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     background-color: white;
-
     .logo-container{
         display: flex;
         .logo-menu{
@@ -27,7 +26,6 @@
             }
         }
     }
-
     .searchbar-container{
         display: flex;
         .searchbar-input{
@@ -104,6 +102,13 @@
         .profile-avt{
             height: 25px;
             margin-top: 7px;
+        }
+    }
+}
+@media screen and (max-width: 1188px){
+    .header-container{
+        .searchbar-container{
+            width: 50%;
         }
     }
 }
