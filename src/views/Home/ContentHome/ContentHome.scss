@@ -9,11 +9,42 @@
         position: fixed;
     }
     .content-video{
-        margin-left: 260px;
-        width: 1280px;
+        margin-left: 255px;
+        // width: 1260px;
+        width: calc(100% - 260px);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-content: flex-start;  
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1368px) {
+    .content-container{
+        .content-nav{
+            a{
+                padding: 10px 0;
+            }
+            .nav-responsive1-show{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                .nav-icon{
+                    margin: 0;
+                }
+
+                .nav-child{
+                    display: block;
+                    font-size: 10px;
+                    text-align: center;
+                    margin: 0;
+                    margin-top: 5px;
+                }
+            }           
+        }
+        .content-video{
+            margin-left: 80px;
+            width: calc(100% - 80px);
+        }
     }
 }

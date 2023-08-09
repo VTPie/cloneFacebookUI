@@ -45,4 +45,18 @@
         width: 25px;
         margin: auto 20px auto 0;
     }
+
+    .nav-child{
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 1368px) {
+    .nav-container{
+        width: 70px;
+        overflow-y: hidden;
+    }
+    .nav-responsive1-hide{
+        display: none;
+    }
 }
