@@ -16,6 +16,8 @@ import setting from './settings.png'
 import report from './report.png'
 import help from './help.png'
 import res from './response.png'
+import search from './search.png'
+import mic from './mic.png'
 
 const icons = {
     home,
@@ -35,6 +37,8 @@ const icons = {
     setting,
     report,
     help,
-    res
+    res,
+    search,
+    mic
 }
 export default icons;
