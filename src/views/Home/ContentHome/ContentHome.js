@@ -3,6 +3,7 @@ import Navigation from '../../Navigation/Navigation'
 import './ContentHome.scss'
 import VideoCard from '../../VideoCard/VideoCard'
 import images from '../../../assests/hardcode/images'
+import MiniNav from '../../Navigation/MiniNav'
 
 class ContentHome extends React.Component {
     render() {
@@ -10,6 +11,9 @@ class ContentHome extends React.Component {
             <div className="content-container">
                 <div className="content-nav">
                     <Navigation />
+                </div>
+                <div className="content-mininav">
+                    <MiniNav />
                 </div>
                 <div className="content-video">
                     <VideoCard

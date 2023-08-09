@@ -45,18 +45,3 @@
         display: inline;
     }
 }
-
-@media screen and (max-width: 1368px) {
-    .nav-container{
-        width: 70px;
-        overflow-y: hidden;
-    }
-    .nav-responsive1-hide{
-        display: none;
-    }
-}
-@media screen and (max-width: 780px){
-    .nav-container{
-        display: none;
-    }
-}

@@ -1,0 +1,35 @@
+.mininav-container{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    overflow-y: hidden;
+    margin-left: 5px;
+    a{
+        text-align: left;
+        color: black;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 10px 0;
+    }
+    a:hover{
+        background-color: #e6e6e6;
+    }
+    a.active{
+        background-color: #e6e6e6;
+    }
+    .mininav-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .mininav-icon{
+            width: 20px;
+            margin-top: 10px;
+        }
+        .mininav-title{
+            display: block;
+            font-size: 10px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+}
