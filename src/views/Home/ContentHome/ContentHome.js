@@ -8,14 +8,15 @@ import MiniNav from '../../Navigation/MiniNav'
 class ContentHome extends React.Component {
     render() {
         return (
-            <div className="content-container">
-                <div className="content-nav">
-                    <Navigation />
-                </div>
-                <div className="content-mininav">
+            <div className="content-container" id="content-container">
+
+                <div className="content-mininav" id="content-mininav">
                     <MiniNav />
                 </div>
-                <div className="content-video">
+                <div className="content-nav" id="content-nav">
+                    <Navigation />
+                </div>
+                <div className="content-video" id="content-video">
                     <VideoCard
                         thumbnail={images.mv1}
                         avtChanel={images.mv1a}

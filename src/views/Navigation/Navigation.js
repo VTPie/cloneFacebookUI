@@ -9,7 +9,7 @@ import pictures from "../../assests/pictures/pictures";
 class Navigation extends React.Component {
     render() {
         return (
-            <div className="nav-container" id="nav-container">
+            <div className="nav-container">
                 <NavLink to="/" exact>
                     <img src={icons.home} className="nav-icon" alt="Icon home"></img>
                     <p className="nav-child">Trang chủ</p>
@@ -72,19 +72,19 @@ class Navigation extends React.Component {
                 <hr></hr>
                 <p className="nav-title">Dịch vụ khác của Youtube</p>
                 <NavLink to="/yPremium">
-                    <img src={pictures.premium} className="nav-picture" alt="Image YouTube Premium"></img>
+                    <img src={pictures.premium} className="nav-picture" alt="YouTube Premium"></img>
                     <p className="nav-child">YouTube Premium</p>
                 </NavLink>
                 <NavLink to="/yStudio">
-                    <img src={pictures.studio} className="nav-picture" alt="Image YouTube Studio"></img>
+                    <img src={pictures.studio} className="nav-picture" alt="YouTube Studio"></img>
                     <p className="nav-child">YouTube Studio</p>
                 </NavLink>
                 <NavLink to="/yMusic">
-                    <img src={pictures.music} className="nav-picture" alt="Image YouTube Music"></img>
+                    <img src={pictures.music} className="nav-picture" alt="YouTube Music"></img>
                     <p className="nav-child">YouTube Music</p>
                 </NavLink>
                 <NavLink to="/yKids">
-                    <img src={pictures.kid} className="nav-picture" alt="Image YouTube Kids"></img>
+                    <img src={pictures.kid} className="nav-picture" alt="YouTube Kids"></img>
                     <p className="nav-child">YouTube Kids</p>
                 </NavLink>
                 <hr></hr>

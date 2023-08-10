@@ -18,6 +18,7 @@ import help from './help.png'
 import res from './response.png'
 import search from './search.png'
 import mic from './mic.png'
+import menu from './menu.png'
 
 const icons = {
     home,
@@ -39,6 +40,7 @@ const icons = {
     help,
     res,
     search,
-    mic
+    mic,
+    menu
 }
 export default icons;

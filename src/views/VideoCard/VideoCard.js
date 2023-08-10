@@ -11,7 +11,7 @@ class VideoCard extends React.Component {
                 </div>
                 <div className="card-infor">
                     <div className="card-avtChanel">
-                        <img src={this.props.avtChanel} className="card-avtChanel-img"></img>
+                        <img src={this.props.avtChanel} className="card-avtChanel-img" alt="avatar channel"></img>
                     </div>
                     <div className="card-meta">
                         <p className="card-nameVideo">{this.props.nameVideo}</p>

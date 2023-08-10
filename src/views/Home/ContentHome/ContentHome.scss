@@ -4,8 +4,9 @@
     flex-direction: row;
     width: 100%;
     .content-nav{
-        left: 0;
         position: fixed;
+        background-color: white;
+        transition: left .01s;
     }
     .content-mininav{
         display: none;
@@ -23,13 +24,15 @@
 @media screen and (max-width: 1368px) {
     .content-container{
         .content-nav{
-            display: none;        
+            left: -100%;       
         }
         .content-mininav{
             display: block;
+            left: 0;
+            position: fixed;
         }
         .content-video{
-            margin-left: 0;
+            margin-left: 80px;
             width: calc(100% - 80px);
         }
     }
@@ -50,6 +53,28 @@
         .content-video{
             margin: 0;
             width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 1369px){
+    .content-container{
+        .content-nav.clickBtnMenu{
+            .nav-container{
+                display: none;
+            }
+        }
+        .content-mininav.clickBtnMenu{
+            display: block;
+            left: 0;
+            position: fixed;
+        }
+        .content-video.clickBtnMenu{
+            margin-left: 90px;
+            width: calc(100% - 80px);
+            .card-container{
+                width: 23%;
+            }
         }
     }
 }

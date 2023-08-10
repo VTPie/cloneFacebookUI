@@ -1,5 +1,4 @@
-.nav-container{
-    width: 240px;
+.maxnav-container{
     color: black;
     background-color: white;
     display: flex;
@@ -8,8 +7,30 @@
     font-size: 16px;
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 720px;
-
+    height: 100vh;
+    .subHeader{
+        display: flex;
+        padding: 10px;
+        .maxnav-menu{
+            border-radius: 30px;
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+            .maxnav-menuicon{
+                height: 20px;
+                margin-top: 10px;
+            }
+        }
+        .maxnav-menu:hover{
+            background-color: #e5e5e5;
+        }
+        .maxnav-logo{
+            .maxnav-logoicon{
+                height: 20px;
+                margin-top: 10px;
+            }
+        }
+    }
     a{
         text-align: left;
         color: black;
@@ -28,20 +49,20 @@
         background-color: black;
         width: 100%;
     }
-    .nav-title{
+    .maxnav-title{
         font-size: 18px;
         margin: 5px auto 5px 0;
         padding-left: 10px;
     }
-    .nav-icon{
+    .maxnav-icon{
         width: 20px;
         margin: auto 20px auto 0;
     }
-    .nav-picture{
+    .maxnav-picture{
         width: 25px;
         margin: auto 20px auto 0;
     }
-    .nav-child{
+    .maxnav-child{
         display: inline;
     }
 }
