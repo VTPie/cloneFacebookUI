@@ -12,13 +12,19 @@ class Home extends React.Component {
     handleClickOverlay = () => {
         var overlay = document.getElementById("overlay");
         var maxnav = document.getElementById("maxnav-container");
+        var nav1 = document.getElementById("content-nav");
+        var nav2 = document.getElementById("content-mininav");
+        var content = document.getElementById("content-video");
 
-        if (overlay.className === "overlay" && maxnav.className === "maxnav-container") {
-            overlay.className += " closeOverlay";
-            maxnav.className += " closeOverlay";
-        } else {
+        if (overlay.className !== "overlay" && maxnav.className !== "maxnav-container") {
             overlay.className = "overlay";
             maxnav.className = "maxnav-container";
+        }
+        if (nav1.className !== 'content-nav' && nav2.className !== 'content-mininav'
+            && content.className !== 'content-video') {
+            nav1.className = 'content-nav'
+            nav2.className = 'content-nav'
+            content.className = 'content-nav'
         }
     }
 

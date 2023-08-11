@@ -9,26 +9,35 @@ class Logo extends React.Component {
         var content = document.getElementById("content-video");
         var overlay = document.getElementById("overlay");
         var maxnav = document.getElementById("maxnav-container");
-        // let width = window.innerWidth
 
-        if (nav1.className === "content-nav" && nav2.className === "content-mininav"
-            && content.className === "content-video" && overlay.className === "overlay"
-            && maxnav.className === "maxnav-container") {
-            nav1.className += " clickBtnMenu";
-            nav2.className += " clickBtnMenu";
-            content.className += " clickBtnMenu";
-            overlay.className += " clickBtnMenu";
-            maxnav.className += " clickBtnMenu";
-            // if (width < 1368) {
-            //     this.props.handleChangeOverlay()
-            //     console.log('>>> logo component call change state')
-            // }
-        } else {
-            nav1.className = "content-nav";
-            nav2.className = "content-mininav";
-            content.className = "content-video";
-            overlay.className = "overlay";
-            maxnav.className = "maxnav-container";
+        if (window.innerWidth > 1368) {
+            if (nav1.className === "content-nav" && nav2.className === "content-mininav"
+                && content.className === "content-video" && overlay.className === "overlay"
+                && maxnav.className === "maxnav-container") {
+                nav1.classList.add('clickBtnMenu')
+                nav2.classList.add('clickBtnMenu')
+                content.classList.add('clickBtnMenu')
+                overlay.classList.add('clickBtnMenu')
+                maxnav.classList.add('clickBtnMenu')
+            }
+            else {
+                nav1.classList.remove('clickBtnMenu')
+                nav2.classList.remove('clickBtnMenu')
+                content.classList.remove('clickBtnMenu')
+                overlay.classList.remove('clickBtnMenu')
+                maxnav.classList.remove('clickBtnMenu')
+            }
+        }
+        else {
+            if (overlay.className === "overlay"
+                && maxnav.className === "maxnav-container") {
+                overlay.classList.add('clickBtnMenu')
+                maxnav.classList.add('clickBtnMenu')
+            }
+            else {
+                overlay.classList.remove('clickBtnMenu')
+                maxnav.classList.remove('clickBtnMenu')
+            }
         }
     }
 
