@@ -1,6 +1,7 @@
 import React from "react";
 import menu from '../../assests/icons/menu.png'
 import logo from '../../assests/pictures/logo.png'
+import { withRouter } from "react-router";
 
 class Logo extends React.Component {
     handleHideNav = () => {
@@ -40,6 +41,9 @@ class Logo extends React.Component {
             }
         }
     }
+    handleGoHome = () => {
+        this.props.history.push('/')
+    }
 
     render() {
         return (
@@ -48,7 +52,7 @@ class Logo extends React.Component {
                 <div className="logo-menu" id="logo-menu" onClick={() => this.handleHideNav()}>
                     <img src={menu} className="logo-menuIcon" alt="menu" />
                 </div>
-                <div className="logo-logo">
+                <div className="logo-logo" onClick={() => this.handleGoHome()}>
                     <img src={logo} className="logo-logoIcon" alt="logo" />
                 </div>
             </div>
@@ -56,4 +60,4 @@ class Logo extends React.Component {
         )
     }
 }
-export default Logo
+export default withRouter(Logo)
