@@ -20,7 +20,7 @@ function App() {
             <Route path="/subscriptions">
               <Subscriptions />
             </Route>
-            <Route path="/shorts">
+            <Route path='/play/video1'>
               <Detail />
             </Route>
           </Switch>

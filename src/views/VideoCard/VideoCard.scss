@@ -1,11 +1,15 @@
 .card-container{
     display: flex;
     flex-direction: column;
-    width: 31.5%; //max-width: 397px
-    min-width: 310px;
-    // height: 325px;
-    height: calc(0.81864%*width);
-    margin: 0 10px 30px 10px;
+
+    // width: 31.5%; //max-width: 397px
+    // min-width: 310px;
+    // // height: 325px;
+    // height: calc(0.81864%*width);
+    // margin: 0 10px 30px 10px;
+    width: 100%;
+    height: 100%;
+
     .card-thumbnail{
         width: 100%;
         // height: 225px;

@@ -1,5 +1,4 @@
 import React from "react";
-import pictures from '../../../assests/hardcode/images'
 
 class ContentLeft extends React.Component {
     render() {
