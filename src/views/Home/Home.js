@@ -5,9 +5,6 @@ import MaxNav from "../Navigation/MaxNav";
 import './Home.scss'
 
 class Home extends React.Component {
-    state = {
-        stateOverlay: false
-    }
 
     handleClickOverlay = () => {
         var overlay = document.getElementById("overlay");

@@ -7,11 +7,36 @@ import pictures from "../../assests/pictures/pictures";
 import './MaxNav.scss'
 
 class MaxNav extends React.Component {
+    handleCloseMaxNav = () => {
+        var overlay = document.getElementById("overlay");
+        var maxnav = document.getElementById("maxnav-container");
+        var nav1 = document.getElementById("content-nav");
+        var nav2 = document.getElementById("content-mininav");
+        var content = document.getElementById("content-video");
+
+        // if (overlay.className !== "overlay" && maxnav.className !== "maxnav-container") {
+        //     overlay.className = "overlay";
+        //     maxnav.className = "maxnav-container";
+        // }
+        if (overlay.className !== "overlay") {
+            overlay.className = "overlay";
+        }
+        if (maxnav.className === "maxnav-container clickBtnMenu") {
+            maxnav.classList.remove('clickBtnMenu')
+        }
+        if (nav1.className !== 'content-nav' && nav2.className !== 'content-mininav'
+            && content.className !== 'content-video') {
+            nav1.className = 'content-nav'
+            nav2.className = 'content-nav'
+            content.className = 'content-nav'
+        }
+    }
+
     render() {
         return (
             <div className="maxnav-container" id="maxnav-container">
                 <div className="subHeader">
-                    <div className="maxnav-menu">
+                    <div className="maxnav-menu" onClick={() => this.handleCloseMaxNav()}>
                         <img src={icons.menu} className="maxnav-menuicon" alt="menu" />
                     </div>
                     <div className="maxnav-logo">
