@@ -5,6 +5,7 @@ import {
 import icons from "../../assests/icons/icons";
 import pictures from "../../assests/pictures/pictures";
 import './MaxNav.scss'
+import { withRouter } from "react-router";
 
 class MaxNav extends React.Component {
     handleCloseMaxNav = () => {
@@ -31,6 +32,9 @@ class MaxNav extends React.Component {
             content.className = 'content-nav'
         }
     }
+    handleGoHome = () => {
+        this.props.history.push('/')
+    }
 
     render() {
         return (
@@ -39,7 +43,7 @@ class MaxNav extends React.Component {
                     <div className="maxnav-menu" onClick={() => this.handleCloseMaxNav()}>
                         <img src={icons.menu} className="maxnav-menuicon" alt="menu" />
                     </div>
-                    <div className="maxnav-logo">
+                    <div className="maxnav-logo" onClick={() => this.handleGoHome()}>
                         <img src={pictures.logo} alt="logo" className="maxnav-logoicon" />
                     </div>
                 </div>
@@ -141,4 +145,4 @@ class MaxNav extends React.Component {
         )
     }
 }
-export default MaxNav
+export default withRouter(MaxNav)
