@@ -1,0 +1,15 @@
+.detail-container{
+    width: 100%;
+    .detail-header{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+    }
+    .contentDetail-container{
+        margin-top: 65px;
+        width: 97%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

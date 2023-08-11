@@ -6,6 +6,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Detail from './Detail/Detail';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
             </Route>
             <Route path="/subscriptions">
               <Subscriptions />
+            </Route>
+            <Route path="/shorts">
+              <Detail />
             </Route>
           </Switch>
         </header>
