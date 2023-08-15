@@ -23,6 +23,185 @@
                 border: none;
             }
         }
+        .contLeft-infor{
+            margin-top: 0;
+            .contLeft-nameVid{
+                p{
+                    text-align: left;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+            .contLeft-topScope{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                .top-left-scope{
+                    width: fit-content;
+                    height: 40px;
+                    max-width: 40%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    .avtChannel{
+                        width: 40px;
+                        height: 100%;
+                        .avtChanel-img{
+                            border-radius: 50px;
+                            width: 100%;
+                        }
+                    }
+                    .infoChannel{
+                        width: fit-content;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        text-align: left;
+                        padding-right: 20px;
+                        padding-left: 10px;
+                        .nameChannel{
+                            font-size: 16px;
+                            font-weight: bold;
+                            width: fit-content;
+                            p{
+                                margin: 0;
+                                width: fit-content;
+                            }
+                        }
+                        .countSubChannel{
+                            font-size: 14px;
+                            width: fit-content;
+                            height: 100%;
+                            p{
+                                margin: 0;
+                                width: fit-content;
+                            }
+                        }
+                    }
+                    .subChannel{
+                        font-size: 15px;
+                        width: fit-content;
+                        height: 100%;
+                        background-color: black;
+                        border-radius: 25px;
+                        p{
+                            padding: 0 20px;
+                            margin: 8px 0 0 0;
+                            color: white;
+                            font-weight: bold;
+                        }
+                    }
+                    .subChannel:hover{
+                        background-color: #272727;
+                    }
+                }
+                .top-right-scope{
+                    width: 40%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .like-container{
+                        display: flex;
+                        flex-direction: row;
+                        .likeVid{
+                            width: 80px;
+                            display: flex;
+                            flex-direction: row;
+                            background-color: #f2f2f2;
+                            border-radius: 50px 0 0 50px;
+                            border-right: 1px solid #d9d9d9;
+                            .likeVid-icon{
+                                width: 17px;
+                                height: 17px;
+                                padding-top: 10px;
+                                padding-left: 15px;
+                            }
+                            .likeVid-title{
+                                font-size: 14px;
+                                width: fit-content;
+                                margin: 0 0 0 10px;
+                                padding-top: 10px;
+                            }
+                        }
+                        .likeVid:hover{
+                            background-color: #e5e5e5;
+                        }
+                        .dislikeVid{
+                            width: 50px;
+                            background-color: #f2f2f2;
+                            border-radius: 0 50px 50px 0;
+                            .dislikeVid-icon{
+                                width: 17px;
+                                height: 17px;
+                                padding-top: 10px;
+                                padding-right: 7px;
+                            }
+                        }
+                        .dislikeVid:hover{
+                            background-color: #e5e5e5;
+                        }
+                    }
+                    .shareVid{
+                        width: 100px;
+                        display: flex;
+                        flex-direction: row;
+                        background-color: #f2f2f2;
+                        border-radius: 50px;
+                        .shareVid-icon{
+                            width: 17px;
+                            height: 17px;
+                            padding-top: 10px;
+                            padding-left: 15px;
+                        }
+                        .shareVid-title{
+                            font-size: 14px;
+                            width: fit-content;
+                            margin: 0 0 0 10px;
+                            padding-top: 10px;
+                        }
+                    }
+                    .shareVid:hover{
+                        background-color: #e5e5e5;
+                    }
+                    .downVid{
+                        width: 120px;
+                        display: flex;
+                        flex-direction: row;
+                        background-color: #f2f2f2;
+                        border-radius: 50px;
+                        .downVid-icon{
+                            width: 17px;
+                            height: 17px;
+                            padding-top: 10px;
+                            padding-left: 15px;
+                        }
+                        .downVid-title{
+                            font-size: 14px;
+                            width: fit-content;
+                            margin: 0 0 0 10px;
+                            padding-top: 10px;
+                        }
+                    }
+                    .downVid:hover{
+                        background-color: #e5e5e5;
+                    }
+                    .moreInfo{
+                        width: 30px;
+                        padding: 0 5px;
+                        background-color: #f2f2f2;
+                        border-radius: 50px;
+                        .moreInfo-icon{
+                            width: 17px;
+                            padding-bottom: 3px;
+                        }
+                    }
+                    .moreInfo:hover{
+                        background-color: #e5e5e5;
+                    }
+                }
+            }
+        }
     }
     .contRight-container{
         .contRight-title{

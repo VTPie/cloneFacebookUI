@@ -26,7 +26,7 @@ class ContentHome extends React.Component {
                             thumbnail={images.mv1}
                             avtChanel={images.mv1a}
                             nameVideo={'Yêu 3 Năm Dại 1 Giờ - Chu Thúy Quỳnh | Official Music Video'}
-                            nameChanel={'Chu Thúy Quỳnh'}
+                            nameChanel={'Chu Thúy Quỳnh Official'}
                             views={'1.000.000 lượt xem'}
                             onClick={() => this.handlePlayVideo()}
                         />

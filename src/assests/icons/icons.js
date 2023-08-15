@@ -19,8 +19,19 @@ import res from './response.png'
 import search from './search.png'
 import mic from './mic.png'
 import menu from './menu.png'
+import dislike from './dislike.png'
+import share from './share.png'
+import download from './download.png'
+import more from './more.png'
+import like from './like.png'
+import more2 from './more2.png'
 
 const icons = {
+    more,
+    more2,
+    like,
+    download,
+    share,
     home,
     shorts,
     subscibe,
@@ -41,6 +52,7 @@ const icons = {
     res,
     search,
     mic,
-    menu
+    menu,
+    dislike
 }
 export default icons;

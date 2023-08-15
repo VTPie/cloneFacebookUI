@@ -10,6 +10,7 @@
             width: 40px;
             height: 40px;
             margin-right: 20px;
+            margin-top: 1%;
             .logo-menuIcon{
                 height: 20px;
                 margin-top: 10px;
@@ -19,6 +20,7 @@
             background-color: #e5e5e5;
         }
         .logo-logo{
+            margin-top: 1%;
             .logo-logoIcon{
                 height: 20px;
                 margin-top: 10px;
@@ -42,9 +44,10 @@
             width: 70px;
             background-color: #f8f8f8;
 
-            .searchbar-icon{
+            .searchbar-icon{    
                 height: 20px;
-                margin-top: 7   px;
+                margin-top: 13%;
+                margin-bottom: auto;
             }
         }
         .searchbar-btnSearch:hover{
@@ -58,9 +61,9 @@
             background-color: #f2f2f2;
             margin-left: 15px;
 
-            .searchbar-icon{
+            .mic-icon{
                 height: 20px;
-                margin-top: 5px;
+                margin-top: 22%;
             }
         }
         .searchbar-btnMic:hover{
@@ -69,7 +72,6 @@
     }
     .profile-container{
         display: flex;
-        margin-top: 5px;
         margin-right: 10px;
         .profile-search{
             display: none;
@@ -149,6 +151,53 @@
             }
             .profile-mic{
                 display: block;
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    .header-container{
+        .profile-container{
+            .profile-mic{
+                display: none;
+            }
+            .profile-upload{
+                display: none;
+            }
+        }
+
+    }
+}
+@media screen and (max-width: 280px){
+    .header-container{
+        padding: 10px 0;
+        .logo-container{
+            .logo-menu{
+                margin-right: 10px;
+                .logo-menuIcon{
+                    height: 15px;
+                    margin-top: 30%;
+                }
+            }
+        }
+        .profile-container{
+            .profile-search{
+                margin-right: 5px;
+                .profile-searchIcon{
+                    height: 20px;
+                    margin-top: 30%;
+                }
+            }
+            .profile-notification{
+                margin-right: 10px;
+                .profile-notificationIcon{
+                    height: 20px;
+                    margin-top: 30%;
+                }
+            }
+            .profile-avt{
+                height: 20px;
+                margin-top: 10%;
             }
         }
     }

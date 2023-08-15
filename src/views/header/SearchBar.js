@@ -11,7 +11,7 @@ class SearchBar extends React.Component {
                     <img src={search} className="searchbar-icon" alt="search icon" />
                 </div>
                 <div className="searchbar-btnMic">
-                    <img src={mic} className="searchbar-icon" alt="mic icon" />
+                    <img src={mic} className="mic-icon" alt="mic icon" />
                 </div>
             </div>
         )

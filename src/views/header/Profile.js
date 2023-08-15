@@ -8,10 +8,10 @@ class Profile extends React.Component {
     render() {
         return (
             <div className="profile-container">
-                <div className="profile-search header-responsive3">
+                <div className="profile-search">
                     <img src={icons.search} className="profile-searchIcon" alt="Seach button" />
                 </div>
-                <div className="profile-mic header-responsive3">
+                <div className="profile-mic">
                     <img src={icons.mic} className="profile-micIcon" alt="Mic button" />
                 </div>
                 <div className="profile-upload">

@@ -1,4 +1,6 @@
 import React from "react";
+import images from '../../../assests/hardcode/images'
+import icons from '../../../assests/icons/icons'
 
 class ContentLeft extends React.Component {
     render() {
@@ -14,8 +16,54 @@ class ContentLeft extends React.Component {
                         allowfullscreen>
                     </iframe>
                 </div>
-
-                {/* <img src={pictures.mv1} alt="Thumbnail video" className="contLeft-iframe"></img> */}
+                <div className="contLeft-infor">
+                    <div className="contLeft-nameVid">
+                        <p>Yêu 3 Năm Dại 1 Giờ - Chu Thúy Quỳnh | Official Music Video</p>
+                    </div>
+                    <div className="contLeft-topScope">
+                        <div className="top-left-scope">
+                            <div className="avtChannel">
+                                <img src={images.mv1a} className="avtChanel-img" alt="avatar channel"></img>
+                            </div>
+                            <div className="infoChannel">
+                                <div className="nameChannel">
+                                    <p>Chu Thuy Quynh Official</p>
+                                </div>
+                                <div className="countSubChannel">
+                                    <p>174 N người đăng ký</p>
+                                </div>
+                            </div>
+                            <div className="subChannel">
+                                <p>Đăng ký</p>
+                            </div>
+                        </div>
+                        <div className="top-right-scope">
+                            <div className="like-container">
+                                <div className="likeVid">
+                                    <img src={icons.like} className="likeVid-icon" alt="like icon"></img>
+                                    <p className="likeVid-title">4,6 N</p>
+                                </div>
+                                <div className="dislikeVid">
+                                    <img src={icons.dislike} className="dislikeVid-icon" alt="dislike icon"></img>
+                                </div>
+                            </div>
+                            <div className="shareVid">
+                                <img src={icons.share} className="shareVid-icon" alt="share icon"></img>
+                                <p className="shareVid-title">Chia sẻ</p>
+                            </div>
+                            <div className="downVid">
+                                <img src={icons.download} className="downVid-icon" alt="download icon"></img>
+                                <p className="downVid-title">Tải xuống</p>
+                            </div>
+                            <div className="moreInfo">
+                                <img src={icons.more2} className="moreInfo-icon" alt="more info icon"></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="contLeft-botScope">
+                        <p>601.476 lượt xem  Đã công chiếu vào 28 thg 8, 2022 </p>
+                    </div>
+                </div>
             </div>
         )
     }

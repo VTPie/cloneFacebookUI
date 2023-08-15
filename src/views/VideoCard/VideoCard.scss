@@ -25,9 +25,8 @@
         display: flex;
         .card-avtChanel{
             width: 13%;          
-
             .card-avtChanel-img{
-                margin-top: 5px;
+                margin-top: 15%;
                 width: 80%;
                 border-radius: 30px;
             }
@@ -43,6 +42,11 @@
                 margin: 5px 0;
                 font-weight: bold;
                 width: 100%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
             }
             .card-nameChanel{
                 text-align: left;
@@ -76,5 +80,12 @@
 @media screen and (max-width: 678px){
     .card-container{
         width: 100%;
+        .card-infor{
+            .card-avtChanel{
+                .card-avtChanel-img{
+                    margin-top: 25%;
+                }
+            }
+        }
     }
 }
