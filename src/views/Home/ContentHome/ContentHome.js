@@ -103,6 +103,22 @@ class ContentHome extends React.Component {
                             nameChanel={'Hòa Minzy'}
                             views={'1.000.000 lượt xem'} />
                     </div>
+                    <div className="content-child">
+                        <VideoCard
+                            thumbnail={images.mv2}
+                            avtChanel={images.mv2a}
+                            nameVideo={'NHẬT PHONG | THẬT LÒNG YÊU | OFFICIAL MUSIC VIDEO'}
+                            nameChanel={'Nhật Phong'}
+                            views={'1.000.000 lượt xem'} />
+                    </div>
+                    <div className="content-child">
+                        <VideoCard
+                            thumbnail={images.mv6}
+                            avtChanel={images.mv6a}
+                            nameVideo={'Sa Mạc Tình Yêu - Phương Ý (Quán Quân Thần Tượng Bolero 2019) | Official 4K MV'}
+                            nameChanel={'Phương Ý Offical'}
+                            views={'1.000.000 lượt xem'} />
+                    </div>
                 </div>
             </div>
         )
