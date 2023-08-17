@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/cloneYoutubeUI/static/css/main.7fc4a408.css",
+    "main.js": "/cloneYoutubeUI/static/js/main.27fd37f9.js",
+    "static/js/787.28cb0dcd.chunk.js": "/cloneYoutubeUI/static/js/787.28cb0dcd.chunk.js",
+    "static/media/mv6.png": "/cloneYoutubeUI/static/media/mv6.ca3f9a6e0414df5380a5.png",
+    "static/media/mv3.jpg": "/cloneYoutubeUI/static/media/mv3.8b66a0e48b4d0626bffb.jpg",
+    "static/media/mv9.jpg": "/cloneYoutubeUI/static/media/mv9.213998904492cb9ed84d.jpg",
+    "static/media/mv2.jpg": "/cloneYoutubeUI/static/media/mv2.e22170b1348e45ac7ebe.jpg",
+    "static/media/mv5.jpg": "/cloneYoutubeUI/static/media/mv5.0990bbcb2d2aa22e37f0.jpg",
+    "static/media/mv8.jpg": "/cloneYoutubeUI/static/media/mv8.ba8362d3515a06e21b5d.jpg",
+    "static/media/mv7.jpg": "/cloneYoutubeUI/static/media/mv7.7946e537b7fc7a92f700.jpg",
+    "static/media/mv1.jpg": "/cloneYoutubeUI/static/media/mv1.233233beadea4ebe1bc7.jpg",
+    "static/media/premium.jpeg": "/cloneYoutubeUI/static/media/premium.c7b0fa476869946cfe44.jpeg",
+    "static/media/mv1-1.jpg": "/cloneYoutubeUI/static/media/mv1-1.f60ab51e5c15d6dd4e66.jpg",
+    "static/media/recent.png": "/cloneYoutubeUI/static/media/recent.47559c607995b9cac796.png",
+    "static/media/help.png": "/cloneYoutubeUI/static/media/help.e53b784c2db12c0499b3.png",
+    "static/media/games.png": "/cloneYoutubeUI/static/media/games.c64b312dfeb9531b7952.png",
+    "static/media/settings.png": "/cloneYoutubeUI/static/media/settings.f7b1035622557c87aa8e.png",
+    "static/media/response.png": "/cloneYoutubeUI/static/media/response.101cb53c928120c688c6.png",
+    "static/media/sports.png": "/cloneYoutubeUI/static/media/sports.2fad7341cb34c68e332b.png",
+    "static/media/notification.png": "/cloneYoutubeUI/static/media/notification.a072236f3c525436ca8f.png",
+    "static/media/trending.png": "/cloneYoutubeUI/static/media/trending.441f8cb89e07d61490f4.png",
+    "static/media/search.png": "/cloneYoutubeUI/static/media/search.bca4dfd6e4243d99423e.png",
+    "static/media/mic.png": "/cloneYoutubeUI/static/media/mic.b59e2839c6ee59899613.png",
+    "static/media/share.png": "/cloneYoutubeUI/static/media/share.29ce786d77ad39a87225.png",
+    "index.html": "/cloneYoutubeUI/index.html",
+    "main.7fc4a408.css.map": "/cloneYoutubeUI/static/css/main.7fc4a408.css.map",
+    "main.27fd37f9.js.map": "/cloneYoutubeUI/static/js/main.27fd37f9.js.map",
+    "787.28cb0dcd.chunk.js.map": "/cloneYoutubeUI/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fc4a408.css",
+    "static/js/main.27fd37f9.js"
+  ]
+}
