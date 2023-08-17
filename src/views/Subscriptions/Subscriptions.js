@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../Header/Header";
 import ContentSub from "./ContentSub/ContentSub";
+import Header from '../Header/Header'
 
 class Subscriptions extends React.Component {
     render() {
