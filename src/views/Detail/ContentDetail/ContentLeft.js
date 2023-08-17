@@ -61,7 +61,30 @@ class ContentLeft extends React.Component {
                         </div>
                     </div>
                     <div className="contLeft-botScope">
-                        <p>601.476 lượt xem  Đã công chiếu vào 28 thg 8, 2022 </p>
+                        <p className="botScope-view">601.476 lượt xem  Đã công chiếu vào 28 thg 8, 2022 </p>
+                        <p className="botScope-infor">
+                            Yêu 3 Năm Dại 1 Giờ - Chu Thúy Quỳnh | Official Music Video.<br />
+                            Singer: Chu Thuý Quỳnh<br />
+                            Composer: Issac Thái<br />
+                            Music Produce r: Issac Thái<br />
+                            Arrangement : Phúc CD<br />
+                            Record : Lê Nguyên Thắng<br />
+                            Mix & Master : Minh Đức<br />
+                            Vocal : Me Studio<br />
+                            Cast : Junki Trần Hòa<br />
+                            Talent Manager : Đào Thu Hiền<br />
+                            Assistant Manager : Chu Quỳnh Châu<br />
+                            Director : Đỗ Khôi<br />
+                            Camera O.P : Cường S.O<br />
+                            Assistant Camera : Quốc Anh - Quang Vinh<br />
+                            Focus Puller : Sái Lâm<br />
+                            Lighting : Hải Chín Tư<br />
+                            Design : Đặng Tuấn Vũ - Huynh Trần<br />
+                            Editor & Colorist : Yan Huy Trần<br />
+                            BTS : Quang Minh<br />
+                            M.U.A : Huỳnh Khải<br />
+                            Equipment : Aerial Media<br />
+                        </p>
                     </div>
                 </div>
             </div>

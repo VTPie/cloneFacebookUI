@@ -39,7 +39,7 @@
                 .top-left-scope{
                     width: fit-content;
                     height: 40px;
-                    max-width: 40%;
+                    width: 352px;
                     display: flex;
                     justify-content: space-between;
                     flex-direction: row;
@@ -72,7 +72,7 @@
                         .countSubChannel{
                             font-size: 14px;
                             width: fit-content;
-                            height: 100%;
+                            // height: 100%;
                             p{
                                 margin: 0;
                                 width: fit-content;
@@ -97,7 +97,7 @@
                     }
                 }
                 .top-right-scope{
-                    width: 40%;
+                    width: 426px;
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
@@ -201,6 +201,28 @@
                     }
                 }
             }
+            .contLeft-botScope{
+                width: 100%;
+                background-color: #f2f2f2;
+                border-radius: 10px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                .botScope-view{   
+                    margin: 0;
+                    padding-top: 5px;  
+                    padding-left: 5px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    text-align: left;
+                }
+                .botScope-infor{
+                    margin: 0;
+                    padding-left: 5px;
+                    padding-top: 5px;
+                    font-size: 16px;
+                    text-align: left;
+                }
+            }
         }
     }
     .contRight-container{
@@ -213,16 +235,117 @@
         width: 415px;
     }
 }
-@media screen and (max-width: 1120px){
+@media screen and (max-width: 1330px){
+    .contentDetail-container{
+        .contLeft-container{
+            .contLeft-infor{
+                .contLeft-topScope{
+                    .top-right-scope{
+                        width: 300px;
+                        .downVid{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1200px){
     .contentDetail-container{
         flex-direction: column;
         align-items: center;
         .contLeft-container{
             width: 97%;
+            .contLeft-infor{
+                .contLeft-topScope{
+                    .top-right-scope{
+                        width: 426px;
+                        .downVid{
+                            display: flex;
+                        }
+                    }
+                }
+            }
         }
         .contRight-container{
             width: 97%;
         }
     }
     
+}
+@media screen and (max-width: 880px){
+    .contentDetail-container{
+        .contLeft-container{
+            .contLeft-infor{
+                .contLeft-topScope{
+                    .top-right-scope{
+                        width: 300px;
+                        .downVid{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 720px){
+    .contentDetail-container{
+        .contLeft-container{
+            .contLeft-infor{
+                .contLeft-topScope{
+                    flex-direction: column;
+                    .top-right-scope{
+                        margin-top: 10px;
+                        width: 426px;
+                        .downVid{
+                            display: flex;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 440px){
+    .contentDetail-container{
+        .contLeft-container{
+            .contLeft-infor{
+                .contLeft-topScope{
+                    .top-right-scope{
+                        width: 300px;
+                        .downVid{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 380px){
+    .contentDetail-container{
+        .contLeft-container{
+            .contLeft-infor{
+                .contLeft-topScope{
+                    .top-left-scope{
+                        width: 98%;
+                        .infoChannel{
+                            padding-right: 10px;
+                            padding-left: 5px;
+                            width: 50%;
+                            .nameChannel{
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 2;
+                                -webkit-box-orient: vertical;
+                            }
+                        }
+                    }
+                }
+            }         
+        }
+    }
 }
