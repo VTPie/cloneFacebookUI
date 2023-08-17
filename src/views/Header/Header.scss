@@ -1,0 +1,206 @@
+.header-container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    .logo-container{
+        display: flex;
+        .logo-menu{
+            border-radius: 30px;
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+            margin-top: 1%;
+            .logo-menuIcon{
+                height: 20px;
+                margin-top: 10px;
+            }
+        }
+        .logo-menu:hover{
+            background-color: #e5e5e5;
+        }
+        .logo-logo{
+            margin-top: 1%;
+            .logo-logoIcon{
+                height: 20px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .searchbar-container{
+        display: flex;
+        width: 60%;
+        .searchbar-input{
+            border-radius: 30px 0 0 30px;
+            padding-left: 10px;
+            height: 38px;
+            // width: 550px;
+            width: 70%;
+            border: 1px solid #e5e5e5;
+        }
+        .searchbar-btnSearch{
+            border: 1px solid #e5e5e5;
+            border-radius: 0 30px 30px 0;
+            border-left: 0;
+            height: 40px;
+            width: 70px;
+            background-color: #f8f8f8;
+
+            .searchbar-icon{    
+                height: 20px;
+                margin-top: 13%;
+                margin-bottom: auto;
+            }
+        }
+        .searchbar-btnSearch:hover{
+            background-color: #f0f0f0;
+        }
+        .searchbar-btnMic{
+            border-radius: 30px;
+            border-left: 0;
+            height: 41px;
+            width: 41px;
+            background-color: #f2f2f2;
+            margin-left: 15px;
+
+            .mic-icon{
+                height: 20px;
+                margin-top: 22%;
+            }
+        }
+        .searchbar-btnMic:hover{
+            background-color: #d9d9d9;
+        }
+    }
+    .profile-container{
+        display: flex;
+        margin-right: 10px;
+        .profile-search{
+            display: none;
+            border-radius: 30px;
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+            .profile-searchIcon{
+                height: 25px;
+                margin-top: 7px;
+            }
+        }
+        .profile-search:hover{
+            background-color: #e5e5e5;
+        }
+        .profile-mic{
+            display: none;
+            border-radius: 30px;
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+            .profile-micIcon{
+                height: 25px;
+                margin-top: 7px;
+            }
+        }
+        .profile-mic:hover{
+            background-color: #e5e5e5;
+        }
+        .profile-upload{
+            border-radius: 30px;
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+            .profile-uploadIcon{
+                height: 25px;
+                margin-top: 7px;
+            }
+        }
+        .profile-upload:hover{
+            background-color: #e5e5e5;
+        }
+        .profile-notification{
+            border-radius: 30px;
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+            .profile-notificationIcon{
+                height: 25px;
+                margin-top: 7px;
+            }
+        }
+        .profile-notification:hover{
+            background-color: #e5e5e5;
+        }
+        .profile-avt{
+            height: 25px;
+            margin-top: 7px;
+        }
+    }
+}
+@media screen and (max-width: 1188px){
+    .header-container{
+        .searchbar-container{
+            width: 50%;
+        }
+    }
+}
+@media screen and (max-width: 780px){
+    .header-container{
+        .searchbar-container{
+            display: none;
+        }
+        .profile-container{
+            .profile-search{
+                display: block;
+            }
+            .profile-mic{
+                display: block;
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    .header-container{
+        .profile-container{
+            .profile-mic{
+                display: none;
+            }
+            .profile-upload{
+                display: none;
+            }
+        }
+
+    }
+}
+@media screen and (max-width: 280px){
+    .header-container{
+        padding: 10px 0;
+        .logo-container{
+            .logo-menu{
+                margin-right: 10px;
+                .logo-menuIcon{
+                    height: 15px;
+                    margin-top: 30%;
+                }
+            }
+        }
+        .profile-container{
+            .profile-search{
+                margin-right: 5px;
+                .profile-searchIcon{
+                    height: 20px;
+                    margin-top: 30%;
+                }
+            }
+            .profile-notification{
+                margin-right: 10px;
+                .profile-notificationIcon{
+                    height: 20px;
+                    margin-top: 30%;
+                }
+            }
+            .profile-avt{
+                height: 20px;
+                margin-top: 10%;
+            }
+        }
+    }
+}
