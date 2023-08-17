@@ -10,7 +10,7 @@ class Navigation extends React.Component {
     render() {
         return (
             <div className="nav-container">
-                <NavLink to="/cloneYoutubeUI/" exact>
+                <NavLink to="/" exact>
                     <img src={icons.home} className="nav-icon" alt="Icon home"></img>
                     <p className="nav-child">Trang chủ</p>
                 </NavLink>
@@ -18,7 +18,7 @@ class Navigation extends React.Component {
                     <img src={icons.shorts} className="nav-icon" alt="Icon shorts"></img>
                     <p className="nav-child">Shorts</p>
                 </NavLink>
-                <NavLink to="/cloneYoutubeUI/subscriptions">
+                <NavLink to="/subscriptions">
                     <img src={icons.subscibe} className="nav-icon" alt="Icon subscriptions"></img>
                     <p className="nav-child">Kênh đăng ký</p>
                 </NavLink>

@@ -42,7 +42,7 @@ class Logo extends React.Component {
         }
     }
     handleGoHome = () => {
-        this.props.history.push('/cloneYoutubeUI/')
+        this.props.history.push('/')
     }
 
     render() {

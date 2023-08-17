@@ -14,13 +14,13 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Switch>
-            <Route path="https://vtpie.github.io/cloneYoutubeUI/" exact>
+            <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/cloneYoutubeUI/subscriptions">
+            <Route path="/subscriptions">
               <Subscriptions />
             </Route>
-            <Route path='/cloneYoutubeUI/play/video1'>
+            <Route path='/play/video1'>
               <Detail />
             </Route>
           </Switch>
