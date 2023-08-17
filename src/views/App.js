@@ -14,13 +14,13 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Switch>
-            <Route path="/" exact>
+            <Route path="/cloneYoutubeUI/" exact>
               <Home />
             </Route>
-            <Route path="/subscriptions">
+            <Route path="/cloneYoutubeUI/subscriptions">
               <Subscriptions />
             </Route>
-            <Route path='/play/video1'>
+            <Route path='/cloneYoutubeUI/play/video1'>
               <Detail />
             </Route>
           </Switch>

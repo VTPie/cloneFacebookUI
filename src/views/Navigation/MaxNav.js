@@ -33,7 +33,7 @@ class MaxNav extends React.Component {
         }
     }
     handleGoHome = () => {
-        this.props.history.push('/')
+        this.props.history.push('/cloneYoutubeUI/')
     }
 
     render() {

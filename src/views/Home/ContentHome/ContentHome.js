@@ -8,7 +8,7 @@ import { withRouter } from "react-router";
 
 class ContentHome extends React.Component {
     handlePlayVideo = () => {
-        this.props.history.push('/play/video1')
+        this.props.history.push('/cloneYoutubeUI/play/video1')
     }
     render() {
         return (

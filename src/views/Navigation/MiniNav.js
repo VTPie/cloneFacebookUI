@@ -9,7 +9,7 @@ class MiniNav extends React.Component {
     render() {
         return (
             <div className="mininav-container">
-                <NavLink to="/" exact className="mininav-child">
+                <NavLink to="/cloneYoutubeUI/" exact className="mininav-child">
                     <img src={icons.home} className="mininav-icon" alt="Icon home"></img>
                     <p className="mininav-title">Trang chủ</p>
                 </NavLink>
@@ -17,7 +17,7 @@ class MiniNav extends React.Component {
                     <img src={icons.shorts} className="mininav-icon" alt="Icon shorts"></img>
                     <p className="mininav-title">Shorts</p>
                 </NavLink>
-                <NavLink to="/subscriptions" className="mininav-child">
+                <NavLink to="/cloneYoutubeUI/subscriptions" className="mininav-child">
                     <img src={icons.subscibe} className="mininav-icon" alt="Icon subscription"></img>
                     <p className="mininav-title">Kênh đăng ký</p>
                 </NavLink>
