@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../Header/Header";
 import ContentHome from "./ContentHome/ContentHome";
 import MaxNav from "../Navigation/MaxNav";
 import './Home.scss'
+import Header from '../Header/Header'
 
 class Home extends React.Component {
 
