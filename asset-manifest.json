@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cloneYoutubeUI/static/css/main.7fc4a408.css",
+    "main.css": "/cloneYoutubeUI/static/css/main.8d44c160.css",
     "main.js": "/cloneYoutubeUI/static/js/main.27fd37f9.js",
     "static/js/787.28cb0dcd.chunk.js": "/cloneYoutubeUI/static/js/787.28cb0dcd.chunk.js",
     "static/media/mv6.png": "/cloneYoutubeUI/static/media/mv6.ca3f9a6e0414df5380a5.png",
@@ -25,12 +25,12 @@
     "static/media/mic.png": "/cloneYoutubeUI/static/media/mic.b59e2839c6ee59899613.png",
     "static/media/share.png": "/cloneYoutubeUI/static/media/share.29ce786d77ad39a87225.png",
     "index.html": "/cloneYoutubeUI/index.html",
-    "main.7fc4a408.css.map": "/cloneYoutubeUI/static/css/main.7fc4a408.css.map",
+    "main.8d44c160.css.map": "/cloneYoutubeUI/static/css/main.8d44c160.css.map",
     "main.27fd37f9.js.map": "/cloneYoutubeUI/static/js/main.27fd37f9.js.map",
     "787.28cb0dcd.chunk.js.map": "/cloneYoutubeUI/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fc4a408.css",
+    "static/css/main.8d44c160.css",
     "static/js/main.27fd37f9.js"
   ]
 }
