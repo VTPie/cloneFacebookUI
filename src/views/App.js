@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Switch>
-            <Route path="/cloneYoutubeUI/" exact>
+            <Route path="https://vtpie.github.io/cloneYoutubeUI/" exact>
               <Home />
             </Route>
             <Route path="/cloneYoutubeUI/subscriptions">
